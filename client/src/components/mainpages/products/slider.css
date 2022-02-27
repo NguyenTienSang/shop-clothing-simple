@@ -1,0 +1,110 @@
+.layout {
+    display: flex;
+    max-width: 1200px;
+    height: 500px;
+    width: 100%;
+}
+
+.layout .layout-first {
+    width: 260px;
+    /* width: 100%; */
+    font-size: 18px;
+    display: block;
+}
+
+.layout .layout-first .category .item:first-child {
+    display: flex;
+    align-items: center;
+    background: rgb(26, 148, 255);
+    color: #fff;
+}
+
+.layout .layout-first .category .item:first-child i {
+    margin-top: 2px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.layout .layout-first .category .item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 260px;
+    height: 50px;
+    border-left: 1px solid rgba(214, 213, 213, 0.5);
+    border-right: 1px solid rgba(214, 213, 213, 0.5);
+    border-bottom: 1px solid rgba(214, 213, 213, 0.5);
+}
+
+.layout .layout-second {
+    display: block;
+    position: relative;
+    max-width: 940px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.layout .layout-second .slider {
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout .layout-second .slider .owl_sliderbanner {
+    position: absolute;
+}
+.layout .layout-second .slider .owl_sliderbanner img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.slider .owl-nav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 40%;
+    font-size: 60px;
+}
+
+
+
+.slider .owl-nav .owl-prev {
+    position: absolute;
+    left: 20px;
+   
+}
+.slider .owl-nav .owl-next {
+    position: absolute;
+    right: 80px;
+}
+.slider .owl-nav span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-bottom: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(233, 229, 229,0.7);
+    border-radius: 50%;
+}
+
+/* .carousel .owl-item {
+    max-width: 900px !important;
+    width: 100% !important;
+}
+
+.slider .item {
+    max-width: 900px;
+    width: 100%;
+} */
